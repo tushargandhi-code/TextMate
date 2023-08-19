@@ -43,10 +43,11 @@ function App() {
   };
   return (
     <>
+    <BrowserRouter basename='/TextMate' >
     <Navbar title="TextMate" homeabout="About" action="burger khalo ji" mode={mode} togglemode={togglemode} />
     <Alert  alert={alert}/>
 
-      <BrowserRouter  >
+      
       <Routes >
     
           <Route exact path = "/about" element = {<About mode={mode} />} />
