@@ -26,4 +26,13 @@ img{
   font-family: 'Nunito Sans', sans-serif;
 }
 
+@media screen and (max-width: 1040px){
+
+  img{
+    height: 400px;
+    width: 400px;
+  }
+
+}
+
 
